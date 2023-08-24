@@ -1,0 +1,6 @@
+salesforce:
+  baseUrl: fixme
+  clientId: fixme
+  clientSecret: fixme
+  username: fixme
+  password: fixme
