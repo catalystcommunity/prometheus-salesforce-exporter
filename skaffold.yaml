@@ -1,0 +1,26 @@
+apiVersion: skaffold/v2beta25
+kind: Config
+build:
+  artifacts:
+    - image: prometheus-salesforce-exporter
+deploy:
+  helm:
+    releases:
+      - name: prometheus-salesforce-exporter
+        namespace: prometheus-salesforce-exporter
+        createNamespace: true
+        remoteChart: catalystsquad/prometheus-salesforce-exporter
+        # chartPath: ../chart-prometheus-salesforce-exporter/chart
+        version: '>=1.0.0-alpha'
+        artifactOverrides:
+          image: prometheus-salesforce-exporter
+        imageStrategy:
+          helm: {}
+        valuesFiles:
+          - skaffold-values.yaml
+portForward:
+  - resourceType: service
+    resourceName: prometheus-salesforce-exporter
+    namespace: prometheus-salesforce-exporter
+    port: 8080
+    localPort: 8080
