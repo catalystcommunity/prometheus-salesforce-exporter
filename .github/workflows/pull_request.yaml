@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: crazy-max/ghaction-dump-context@v1
-      - uses: catalystsquad/action-validate-conventional-commits-pr@v1
+      - uses: catalystcommunity/action-validate-conventional-commits-pr@v1
   ensure-compile:
     if: github.event.pull_request.draft == false
     name: Ensure project compiles
@@ -27,4 +27,4 @@ jobs:
         run: |
           git config --global url."https://${{ secrets.AUTOMATION_PAT }}@github.com".insteadOf "https://github.com"
       - name: Compile
-        uses: catalystsquad/action-compile-go@v1
+        uses: catalystcommunity/action-compile-go@v1

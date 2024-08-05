@@ -9,7 +9,7 @@ deploy:
       - name: prometheus-salesforce-exporter
         namespace: prometheus-salesforce-exporter
         createNamespace: true
-        remoteChart: catalystsquad/prometheus-salesforce-exporter
+        remoteChart: catalystcommunity/prometheus-salesforce-exporter
         # chartPath: ../chart-prometheus-salesforce-exporter/chart
         version: '>=1.0.0-alpha'
         artifactOverrides:

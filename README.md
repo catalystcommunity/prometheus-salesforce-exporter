@@ -18,11 +18,11 @@ polls metrics from Salesforce independently from when Prometheus scrapes.
 
 ## Installing with Helm
 
-A helm chart for this project is maintained [here](https://github.com/catalystsquad/chart-prometheus-salesforce-exporter)
+A helm chart for this project is maintained [here](https://github.com/catalystcommunity/chart-prometheus-salesforce-exporter)
 
 ```
-helm repo add catalystsquad https://raw.githubusercontent.com/catalystsquad/charts/main
-helm install catalystsquad/prometheus-salesforce-exporter \
+helm repo add catalystcommunity https://raw.githubusercontent.com/catalystcommunity/charts/main
+helm install catalystcommunity/prometheus-salesforce-exporter \
   --set salesforce.baseUrl=https://myenv.salesforce.com \
   --set salesforce.clientId=abc123 \
   --set salesforce.clientSecret=ABC123 \

@@ -44,10 +44,10 @@ github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d h1:Byv0BzEl
 github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d/go.mod h1:WaHUgvxTVq04UNunO+XhnAqY/wQc+bxr74GqbsZ/Jqw=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
-github.com/catalystsquad/app-utils-go v1.0.4 h1:51S2bNLIhsBEsAAb8gsreMcpAMMG/CttVw8hh2VRFuQ=
-github.com/catalystsquad/app-utils-go v1.0.4/go.mod h1:8YFNll9NxO3MZ9A16j1LJiNIwX0lG0ljgBzEVqu/igU=
-github.com/catalystsquad/salesforce-utils v1.1.0 h1:+YH9dDeDL1KNUKN8JWG9orLoiaPH7KdIs6vHBPoGpYQ=
-github.com/catalystsquad/salesforce-utils v1.1.0/go.mod h1:8m+MbwdpkXrcw1Wc4bbwZfnRULUhP2V1xLwWz188Vws=
+github.com/catalystcommunity/app-utils-go v1.0.4 h1:51S2bNLIhsBEsAAb8gsreMcpAMMG/CttVw8hh2VRFuQ=
+github.com/catalystcommunity/app-utils-go v1.0.4/go.mod h1:8YFNll9NxO3MZ9A16j1LJiNIwX0lG0ljgBzEVqu/igU=
+github.com/catalystcommunity/salesforce-utils v1.1.0 h1:+YH9dDeDL1KNUKN8JWG9orLoiaPH7KdIs6vHBPoGpYQ=
+github.com/catalystcommunity/salesforce-utils v1.1.0/go.mod h1:8m+MbwdpkXrcw1Wc4bbwZfnRULUhP2V1xLwWz188Vws=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/cespare/xxhash/v2 v2.2.0 h1:DC2CZ1Ep5Y4k3ZQ899DldepgrayRUGE6BBZ/cd9Cj44=
 github.com/cespare/xxhash/v2 v2.2.0/go.mod h1:VGX0DQ3Q6kWi7AoAeZDth3/j3BFtOZR5XLFGgcrjCOs=

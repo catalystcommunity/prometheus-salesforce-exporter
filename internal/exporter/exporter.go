@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/catalystsquad/app-utils-go/logging"
-	sfutils "github.com/catalystsquad/salesforce-utils/pkg"
+	"github.com/catalystcommunity/app-utils-go/logging"
+	sfutils "github.com/catalystcommunity/salesforce-utils/pkg"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

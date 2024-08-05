@@ -35,7 +35,7 @@ jobs:
                 version=$trimmedVersion
             fi
             # build list of tags with quay registry, use ${blah,,} to ensure lower case
-            fullTags="quay.io/catalystsquad/${{ github.event.repository.name }}:$version,$fullTags"
+            fullTags="quay.io/catalystcommunity/${{ github.event.repository.name }}:$version,$fullTags"
           done
           fullTags=${fullTags::-1}
           echo "will push with tags: $fullTags"

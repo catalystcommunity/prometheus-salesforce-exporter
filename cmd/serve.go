@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/catalystsquad/app-utils-go/logging"
-	"github.com/catalystsquad/prometheus-salesforce-exporter/internal/exporter"
+	"github.com/catalystcommunity/app-utils-go/logging"
+	"github.com/catalystcommunity/prometheus-salesforce-exporter/internal/exporter"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

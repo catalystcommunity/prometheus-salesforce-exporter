@@ -1,10 +1,10 @@
-module github.com/catalystsquad/prometheus-salesforce-exporter
+module github.com/catalystcommunity/prometheus-salesforce-exporter
 
 go 1.20
 
 require (
-	github.com/catalystsquad/app-utils-go v1.0.4
-	github.com/catalystsquad/salesforce-utils v1.1.0
+	github.com/catalystcommunity/app-utils-go v1.0.4
+	github.com/catalystcommunity/salesforce-utils v1.1.0
 	github.com/prometheus/client_golang v1.16.0
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
